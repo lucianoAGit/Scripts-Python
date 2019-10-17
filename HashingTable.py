@@ -11,7 +11,7 @@ tablesize = int(input('Entre com o numero de palavras que deseja alocar: '))
 for j in range(tablesize):
     word = input('Entre com uma palavra a ser alocada: ')
     alocation = hashing_function(word, tablesize)
-    palavra.insert(alocation,word)
+    palavra.insert(alocation,word) #teste
 
 
 for k in range(len(palavra)):
