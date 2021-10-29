@@ -1,10 +1,10 @@
 def hashing_function(word, listsize): #Dado uma string, a função hashing aloca a posição na lista.
 
-        sum = 0
+        soma = 0
         for i in range(len(word)):
-            sum = sum + ord(word[i])
+            soma = soma + ord(word[i])
 
-        return sum%listsize
+        return soma%listsize
 
 list = []
 
