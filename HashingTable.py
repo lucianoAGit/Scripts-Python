@@ -13,8 +13,8 @@ listsize = int(input('Entre com o numero de palavras que deseja alocar: '))
 for j in range(listsize):
     word = input('Entre com uma palavra a ser alocada: ')
     alocation = hashing_function(word, listsize)
-    list.insert(alocation,word) #Insere os elementos na lista, já com a posição da função hashing.
-k = listsize
+    list.insert(alocation,word) #Insere os elementos na lista,já com a posição da função hashing.
+k = listsize #Tamanho do list
 
 while k >= 0:
     print(list)
